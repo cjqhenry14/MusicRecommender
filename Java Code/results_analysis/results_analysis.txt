@@ -1,0 +1,129 @@
+======= User CF =========
+K = 20
+rec_num			precision		recall		coverage
+5				21.0%			10.6%		3.6%
+10				15.8%			16.0%		5.7%
+15				13.0%			19.7%		7.4%
+20				11.2%			22.8%		9.2%
+======= Social CF =======
+K = 20, alpha = 0.2
+rec_num			precision		recall		coverage
+5				21.7%			11.0%		3.8%
+10				16.3%			16.5%		6.4%
+15				13.4%			20.4%		8.2%
+20				11.5%			23.3%		10.2%
+======= Item CF =======
+K = 400
+rec_num			precision		recall		coverage
+5				22.5%			11.4%		9.7%
+10				16.5%			16.7%		17.3%
+15				13.7%			20.8%		24.5%
+20				11.8%			24.0%		30.6%
+======= Tag Item CF =======
+K = 400, alpha = 0.2
+rec_num			precision		recall		coverage
+5				23.9%			12.1%		10.2%
+10				17.7%			17.9%		17.3%
+15				14.6%			22.2%		23.2%
+20				12.7%			25.7%		28.6%
+
+
+
+
+
+
+
+
+
+
+
+////////
+======= User CF =========
+rec_num = 10
+K				precision		recall		coverage
+5				13.5%			13.7%		12.3%
+10				15.1%			15.3%		8.4%
+15				15.5%			15.7%		6.7%
+20				15.8%			16.0%		5.7%
+======= Social CF =======
+rec_num = 10, alpha = 0.2
+K				precision		recall		coverage
+5				13.8%			13.9%		13.3%
+10				15.5%			15.7%		9.3%
+15				16.1%			16.4%		7.4%
+20				16.3%			16.5%		6.4%
+
+
+
+
+
+
+
+======= Social CF k=20, rec_num=10 =======
+Social User CF (alpha = 0.0) start...
+Precision: 0.15785828
+Recall: 0.15981661
+Social User CF (alpha = 0.1) start...
+Precision: 0.16249333
+Recall: 0.16450916
+Social User CF (alpha = 0.2) start...
+Precision: 0.16297282
+Recall: 0.16499461
+Social User CF (alpha = 0.3) start...
+Precision: 0.16132125
+Recall: 0.16332255
+Social User CF (alpha = 0.4) start...
+Precision: 0.15684603
+Recall: 0.1587918
+Social User CF (alpha = 0.5) start...
+Precision: 0.15071923
+Recall: 0.152589
+Social User CF (alpha = 0.6) start...
+Precision: 0.14496537
+Recall: 0.14676376
+Social User CF (alpha = 0.7) start...
+Precision: 0.13963772
+Recall: 0.14137001
+Social User CF (alpha = 0.8) start...
+Precision: 0.13500266
+Recall: 0.13667746
+Social User CF (alpha = 0.9) start...
+Precision: 0.1308471
+Recall: 0.13247034
+Social User CF (alpha = 1.0) start...
+Precision: 0.1258391
+Recall: 0.12740022
+======= Social CF k=20, rec_num=5 =======
+Social User CF (alpha = 0.0) start...
+Precision: 0.21022908
+Recall: 0.10641856
+Social User CF (alpha = 0.1) start...
+Precision: 0.2142781
+Recall: 0.108468175
+Social User CF (alpha = 0.2) start...
+Precision: 0.21672882
+Recall: 0.10970874
+Social User CF (alpha = 0.3) start...
+Precision: 0.21417154
+Recall: 0.10841424
+Social User CF (alpha = 0.4) start...
+Precision: 0.20852424
+Recall: 0.10555556
+Social User CF (alpha = 0.5) start...
+Precision: 0.20117208
+Recall: 0.10183387
+Social User CF (alpha = 0.6) start...
+Precision: 0.19403303
+Recall: 0.098220065
+Social User CF (alpha = 0.7) start...
+Precision: 0.18486947
+Recall: 0.093581446
+Social User CF (alpha = 0.8) start...
+Precision: 0.18039425
+Recall: 0.091316074
+Social User CF (alpha = 0.9) start...
+Precision: 0.17368141
+Recall: 0.08791801
+Social User CF (alpha = 1.0) start...
+Precision: 0.16547683
+Recall: 0.083764836

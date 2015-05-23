@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{rs}
+Paul Resnick and Hal~R Varian.
+\newblock Recommender systems.
+\newblock {\em Communications of the ACM}, 40(3):56--58, 1997.
+
+\bibitem{amazon}
+Greg Linden, Brent Smith, and Jeremy York.
+\newblock Amazon. com recommendations: Item-to-item collaborative filtering.
+\newblock {\em Internet Computing, IEEE}, 7(1):76--80, 2003.
+
+\bibitem{itembase}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pages 285--295. ACM, 2001.
+
+\bibitem{contentbase}
+Michael~J Pazzani and Daniel Billsus.
+\newblock Content-based recommendation systems.
+\newblock In {\em The adaptive web}, pages 325--341. Springer, 2007.
+
+\bibitem{content2}
+Raymond~J Mooney and Loriene Roy.
+\newblock Content-based book recommending using learning for text
+  categorization.
+\newblock In {\em Proceedings of the fifth ACM conference on Digital
+  libraries}, pages 195--204. ACM, 2000.
+
+\bibitem{itemrank}
+Marco Gori, Augusto Pucci, V~Roma, et~al.
+\newblock Itemrank: A random-walk based scoring algorithm for recommender
+  engines.
+\newblock In {\em IJCAI}, volume~7, pages 2766--2771, 2007.
+
+\bibitem{bayesianinference}
+Guo~Y Yang~X and Liu Y.
+\newblock Bayesian-inference-based recommendation in online social networks.
+\newblock In {\em Parallel and Distributed Systems, IEEE Transactions on},
+  pages 642--651. IEEE, 2013.
+
+\bibitem{naivebayesian}
+Kebin Wang and Ying Tan.
+\newblock A new collaborative filtering recommendation approach based on naive
+  bayesian method.
+\newblock In {\em Advances in Swarm Intelligence}, pages 218--227. Springer
+  Berlin Heidelberg, 2011.
+
+\bibitem{tfidf}
+Wikipedia.
+\newblock Tf–idf --- {W}ikipedia{,} the free encyclopedia.
+\newblock 2015.
+\newblock [Online; accessed 18-May-2015].
+
+\bibitem{socialmodel}
+Frank~Edward Walter, Stefano Battiston, and Frank Schweitzer.
+\newblock A model of a trust-based recommendation system on a social network.
+\newblock {\em Autonomous Agents and Multi-Agent Systems}, 16(1):57--74, 2008.
+
+\bibitem{influence}
+Sylvain Senecal and Jacques Nantel.
+\newblock The influence of online product recommendations on consumers’
+  online choices.
+\newblock {\em Journal of retailing}, 80(2):159--169, 2004.
+
+\bibitem{lastfm}
+http://www.last.fm/.
+
+\bibitem{svd}
+Gene~H Golub and Christian Reinsch.
+\newblock Singular value decomposition and least squares solutions.
+\newblock {\em Numerische Mathematik}, 14(5):403--420, 1970.
+
+\bibitem{hadoop}
+Zhi-Dan Zhao and Ming-Sheng Shang.
+\newblock User-based collaborative-filtering recommendation algorithms on
+  hadoop.
+\newblock In {\em Knowledge Discovery and Data Mining, 2010. WKDD'10. Third
+  International Conference on}, pages 478--481. IEEE, 2010.
+
+\bibitem{cold}
+Popescul~Alexandrin Schein, Andrew~I, Lyle~H Ungar, and David~M Pennock.
+\newblock Methods and metrics for cold-start recommendations.
+\newblock In {\em Proceedings of the 25th annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  253--260. ACM, 2002.
+
+\end{thebibliography}

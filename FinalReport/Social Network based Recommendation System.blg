@@ -1,0 +1,12 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Social Network based Recommendation System.aux
+The style file: unsrt.bst
+Database file #1: bibliography.bib
+Name 1 in "Wang, Kebin, and Ying Tan" has a comma at the end for entry naivebayesian
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in tfidf
+Warning--empty author in lastfm
+Warning--empty journal in lastfm
+Warning--empty year in lastfm
+Too many commas in name 1 of "Schein, Andrew I, Popescul, Alexandrin and Ungar, Lyle H and Pennock, David M" for entry cold
+while executing---line 944 of file unsrt.bst
+(There were 2 error messages)

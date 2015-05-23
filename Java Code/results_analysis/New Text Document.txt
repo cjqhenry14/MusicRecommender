@@ -1,0 +1,19 @@
+Bayesian rate 0.1 prob 0.2
+Precision: 0.060510933 total recommanded 9238
+Recall: 0.030151024 total test 18540
+Precision: 0.060510933
+Recall: 0.030151024
+Coverage: 0.118909776
+Query returns Num of No Rate=17213 Num of Estimate Rate=442537114 Num of Actual Rate=1066652 Total Query=443620979
+No Rate ratio=3.880114064668704E-5 Estimate Rate Ratio=0.9975567769530574 Actual Rate Ratio=0.0024044219062958247
+
+
+naive
+Precision: 0.061340205
+Recall: 0.0064185546
+Coverage: 0.0020165225
+
+TFIDF
+Precision: 0.12121381
+Recall: 0.11763754
+Coverage: 0.21056397

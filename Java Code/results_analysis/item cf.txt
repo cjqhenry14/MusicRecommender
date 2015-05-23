@@ -1,0 +1,141 @@
+Item CF (k = 5) start...
+Precision: 0.11118807
+Recall: 0.112567425
+Coverage: 0.27307618
+
+Item CF (k = 10) start...
+Precision: 0.1288226
+Recall: 0.13042071
+Coverage: 0.22422428
+
+Item CF (k = 15) start...
+Precision: 0.13276505
+Recall: 0.13441208
+Coverage: 0.22006115
+
+Item CF (k = 20) start...
+Precision: 0.13601492
+Recall: 0.13770227
+Coverage: 0.21544266
+
+Item CF (k = 25) start...
+Precision: 0.13617475
+Recall: 0.13786408
+Coverage: 0.21635334
+
+Item CF (k = 30) start...
+Precision: 0.13686734
+Recall: 0.13856526
+Coverage: 0.21511741
+
+Item CF (k = 35) start...
+Precision: 0.13692062
+Recall: 0.1386192
+Coverage: 0.21661355
+
+Item CF (k = 40) start...
+Precision: 0.13750666
+Recall: 0.13921252
+Coverage: 0.21915045
+
+Item CF (k = 45) start...
+Precision: 0.13889185
+Recall: 0.14061488
+Coverage: 0.21895531
+
+Item CF (k = 50) start...
+Precision: 0.139691
+Recall: 0.14142396
+Coverage: 0.2202563
+
+Item CF (k = 60) start...
+Precision: 0.14134257
+Recall: 0.14309601
+Coverage: 0.22032134
+
+Item CF (k = 70) start...
+Precision: 0.14379328
+Recall: 0.14557713
+Coverage: 0.22220777
+
+Item CF (k = 80) start...
+Precision: 0.14587107
+Recall: 0.14768068
+Coverage: 0.22324856
+
+Item CF (k = 90) start...
+Precision: 0.14789557
+Recall: 0.14973031
+Coverage: 0.22051649
+
+Item CF (k = 100) start...
+Precision: 0.14906766
+Recall: 0.15091693
+Coverage: 0.2196058
+
+Item CF (k = 120) start...
+Precision: 0.1521577
+Recall: 0.15404531
+Coverage: 0.2155077
+
+Item CF (k = 140) start...
+Precision: 0.15380926
+Recall: 0.15571737
+Coverage: 0.21225525
+
+Item CF (k = 160) start...
+Precision: 0.15631327
+Recall: 0.15825243
+Coverage: 0.20809211
+
+Item CF (k = 180) start...
+Precision: 0.15855087
+Recall: 0.1605178
+Coverage: 0.20405906
+
+Item CF (k = 200) start...
+Precision: 0.1591902
+Recall: 0.16116504
+Coverage: 0.19924542
+
+Item CF (k = 240) start...
+Precision: 0.16110815
+Recall: 0.1631068
+Coverage: 0.19228518
+Item CF (k = 280) start...
+Precision: 0.16361214
+Recall: 0.16564186
+Coverage: 0.18460938
+Item CF (k = 320) start...
+Precision: 0.16457112
+Recall: 0.16661273
+Coverage: 0.17823456
+Item CF (k = 360) start...
+Precision: 0.16521044
+Recall: 0.16725998
+Coverage: 0.1753724
+Item CF (k = 400) start...
+Precision: 0.165317
+Recall: 0.16736786
+Coverage: 0.17264034
+
+Item CF (k = 500) start...
+Precision: 0.16526371
+Recall: 0.16731392
+Coverage: 0.16841215
+Item CF (k = 600) start...
+Precision: 0.1655301
+Recall: 0.1675836
+Coverage: 0.16470435
+Item CF (k = 700) start...
+Precision: 0.16611615
+Recall: 0.16817692
+Coverage: 0.16340338
+Item CF (k = 800) start...
+Precision: 0.16627598
+Recall: 0.16833873
+Coverage: 0.16249268
+Item CF (k = 900) start...
+Precision: 0.16670218
+Recall: 0.16877022
+Coverage: 0.16216743

@@ -1,0 +1,19 @@
+======= UserCF =========
+precision		recall		coverage
+21.0%			10.6%		3.6%
+
+======= SocialUserCF =======
+precision		recall		coverage
+21.7%			11.0%		3.8%
+
+======= ItemCF =======
+precision		recall		coverage
+22.5%			11.4%		9.7%
+
+======= TagItemCF =======
+precision		recall		coverage
+23.9%			12.1%		10.2%
+
+======= HybridCF =======
+precision		recall		coverage
+24.2%			12.2%		9.3%

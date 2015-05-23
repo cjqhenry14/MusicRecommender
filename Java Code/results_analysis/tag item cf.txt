@@ -1,0 +1,36 @@
+Item CF (alpha = 0.1) start...
+Precision: 0.23217902
+Recall: 0.11752967
+Coverage: 0.09724842
+Item CF (alpha = 0.2) start...
+Precision: 0.23867874
+Recall: 0.12081985
+Coverage: 0.10232225
+Item CF (alpha = 0.3) start...
+Precision: 0.23654768
+Recall: 0.1197411
+Coverage: 0.111038834
+Item CF (alpha = 0.4) start...
+Precision: 0.2297283
+Recall: 0.1162891
+Coverage: 0.11897483
+Item CF (alpha = 0.5) start...
+Precision: 0.21576984
+Recall: 0.1092233
+Coverage: 0.1209263
+Item CF (alpha = 0.6) start...
+Precision: 0.18891849
+Recall: 0.09563107
+Coverage: 0.1209263
+Item CF (alpha = 0.70000005) start...
+Precision: 0.15801811
+Recall: 0.07998921
+Coverage: 0.11858453
+Item CF (alpha = 0.8000001) start...
+Precision: 0.12253596
+Recall: 0.062028047
+Coverage: 0.11526702
+Item CF (alpha = 0.9000001) start...
+Precision: 0.09110282
+Recall: 0.046116505
+Coverage: 0.109607756

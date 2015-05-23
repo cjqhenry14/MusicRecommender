@@ -1,0 +1,94 @@
+\documentclass{sig-alternate}
+\begin{document}
+\title{Social Network based Music Recommendation System}
+
+\numberofauthors{2} 
+\author{
+\alignauthor
+Jiaqi Chen\\
+       \affaddr{Stony Brook University}\\
+       \email{jiaqichen@cs.stonybrook.edu}\\
+% 2nd. author
+\alignauthor
+Jianglin Wu\\
+       \affaddr{Stony Brook University}\\
+       \email{jianglin.wu@stonybrook.edu}\\
+}
+\maketitle
+% ===================    abstract  =====================
+\begin{abstract}
+Recommendation Systems aim at predicting items or ratings of items that the user are interested in. In this project, we use the dataset from Last.fm, a social music website, to recommend artists to users. Collaborative Filtering (CF) algorithms such as user-based and item-based methods are the dominant techniques. Based on classical CF algorithms, we propose several novel algorithms combining social network information and tag information to improve the performance of recommendation, Then, we proposed a hybrid recommendation algorithm combining with user-based CF, item-based CF and Bayesian Inference. The experiment results show that our novel algorithms have better performance than the classical  algorithms.
+%add bayes
+\end{abstract}
+
+\keywords{Recommendation System, Collaborative Filtering, Similarity Measures, Social Network}
+% ===================    INTRODUCTION  =====================
+\section{INTRODUCTION}
+%background
+Recommendation systems \cite{rs} have become extremely popular in recent years, and are applied in a variety of areas, such as movies, music, news, books. Actually, a recommender system represents an added value both for consumers, who can easily find products they really like, and for sellers, who can focus their offers and advertising efforts. For music recommendation system,  users can get new artists who suit their personal taste easily with the help of recommendation list rather than searching from millions of possible choices.\\
+%classical methods
+\indent Collaborative Filtering (CF) is a kind of classical algorithm which is very efficient in practice \cite{amazon}. User-based CF and item-based CF are the two dominant methods. Item-based CF \cite{itembase} is a form of collaborative filtering based on the similarity between items calculated using people's preference of those items, while user-based CF is based on the similarity between users calculated using users' interest. Content-Based recommendation \cite{contentbase} is another popular algorithm which focus on properties of items. Similarity of items is determined by measuring the similarity in their properties. Gori proposed ItemRank \cite{itemrank}, a random-walk based scoring algorithm,  to forecast user preferences by controlling preference flow. However, the speed performance is not ideal when user or item amount is large. 
+%add bayes
+In addition, as more and more recommendation systems are being used in social network, social network information, such as friendship and followers, can be utilized for recommendation \cite{socialmodel}.\\
+%organications
+\indent The rest of the paper is organized as follows. In section 2 we provide a brief description of the dataset. We describe the classical algorithms and our proposed algorithms in section 3. Evaluation criteria is discussed in section 4 and show the results in section 5. Section 6 is the conclusion and future work.
+% ===================    Dataset  =====================
+\section{Dataset}
+%\subsection{Our Project in The Scope of The Related Work}
+%on the internet\cite{ca}
+%\indent In addition to researching 
+%\begin{enumerate}
+%\item Misusing
+%\end{enumerate}
+This dataset was obtained from Last.fm \cite{lastfm} music website. It contains social networking, tagging, and music artist listening information. The dataset is released in the framework of the 2nd International Workshop on Information Heterogeneity and Fusion in Recommender Systems. Table.1 shows the statistics about the dataset.
+\begin{table}[!t]
+\centering
+\caption{Dataset statistics.}
+\begin{tabular}{cc}  % {lccc} left-l,right-r,center-c
+\\
+\hline 
+Item  &  Number \\ \hline 
+users    &   1892 \\ 
+artists    &   17632 \\ 
+user-listened artist relations    &   92834 \\ 
+bi-directional user friend relations    &   12717 \\ 
+tags    &   11946 \\ 
+\hline 
+\end{tabular}
+\end{table}
+% ===================    Methods  =====================
+\section{Methods}
+\subsection{User-based Collaborative Filtering}
+The main idea of user-based collaborative filtering is to recommend new items of interest for a particular user on the basis of other users' behaviors. Predictions for a user is based on the preference patterns of other people who have similar interests. So at first we find top-k users (\textsl{k} nearest neighbors) who are most similar to the current user, in the music recommendation system, user-user similarity is measured by user's artist preference. The similarity between user \textsl{i} to user \textsl{j} can be calculated as cosine similarity:
+\begin{gather*}
+sim(i, j)= \frac{\vert N_i  \cap N_j \vert}{\sqrt{\vert N_i \vert \vert N_j \vert}},
+\end{gather*}
+\indent where $N_i$ is the preference list of user \textsl{i} and $N_j$ is the preference list of user \textsl{j}.\\
+\indent Once a \textsl{k} nearest neighborhood of users is formed, system combines the preferences of neighbors to produce a prediction or top-N recommendation for the current user \textsl{u}, the interest of user \textsl{u} to item(artist) \textsl{i} can be expressed as below:
+\begin{gather*}
+interest(u, i)= \sum_{v \in S(u, K) \cap L_i} sim(u, v),
+\end{gather*}
+\indent where $S(u, K)$ is the $k$ nearest neighbors of $u$, $L_i$ is the user list who likes item $i$.
+
+\subsection{User-based Collaborative Filtering using Social Information}
+Similar to User-CF. Not only artist preference but also friendship information is used to measure the similarity between users.
+
+\subsection{Item-based Collaborative Filtering}
+Firstly find top-k artists who are most similar to the current user’s preference list (artist-artist similarity is measured by common fans(users)), then use these top-k artists as recommendation list.
+
+\subsection{Item-based Collaborative Filtering using Tag Information}
+Similar to User-CF. Not only common fans but also tag information is used to measure the similarity between artists.
+
+% ===================    Evaluation  =====================
+\section{Evaluation Criteria}
+
+% ===================    Results  =====================
+\section{Results}
+
+% ===================    CONCLUSION  =====================
+\section{CONCLUSION AND FUTURE WORK}
+
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+\end{document}

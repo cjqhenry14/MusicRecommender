@@ -1,0 +1,73 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2015.5.17)  18 MAY 2015 20:55
+entering extended mode
+**C:/Users/Jianglin/Dropbox/Colleges*&*Courses/Stony*Brook*University/CSE592/Fi
+nalReport/bibliography.bib
+
+("C:/Users/Jianglin/Dropbox/Colleges & Courses/Stony Brook University/CSE592/Fi
+nalReport/bibliography.bib"
+Overfull \hbox (26.41269pt too wide) in paragraph at lines 1--9
+[]\tenrm @inproceedingsitembase, title=Item-based col-lab-o-ra-tive fil-ter-ing
+ rec-om-men-da-tion al-go-rithms, au-thor=Sarwar,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (19.26456pt too wide) in paragraph at lines 10--20
+[]\tenrm @articleamazon, ti-tle=Amazon. com rec-om-men-da-tions: Item-to-item c
+ol-lab-o-ra-tive fil-ter-ing, au-thor=Linden,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (18.57927pt too wide) in paragraph at lines 54--64
+[]\tenrm @articlers, ti-tle=Recommender sys-tems, au-thor=Resnick, Paul and Var
+-ian, Hal R, jour-nal=Communications|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Overfull \hbox (12.10725pt too wide) in paragraph at lines 65--75
+\tenrm au-thor=Senecal, Syl-vain and Nan-tel, Jacques, jour-nal=Journal of re-t
+ail-ing, vol-ume=80, num-ber=2, pages=159--|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm t
+.\tenrm h
+.etc.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+)
+*
+! Emergency stop.
+<*> ...versity/CSE592/FinalReport/bibliography.bib
+                                                  
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
