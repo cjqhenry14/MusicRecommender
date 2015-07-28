@@ -99,8 +99,8 @@ public class divide_train_test {
 		read_user_art_file();
 		user_art_randomize();
 		// show_user_art_table();
-		divide();
-
+		this.divide();
+		System.out.print("hahahah");
 	}
 
 	public static void show_user_art_table() {
