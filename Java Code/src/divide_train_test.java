@@ -96,7 +96,6 @@ public class divide_train_test {
 	}
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("start dividing...");
 		read_user_art_file();
 		user_art_randomize();
 		// show_user_art_table();
