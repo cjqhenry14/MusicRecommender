@@ -98,12 +98,12 @@ public class divide_train_test {
 	public static void main(String[] args) throws IOException {
 		read_user_art_file();
 		user_art_randomize();
-		// show_user_art_table();
+		// show_user_art_table_test();
 		this.divide();
 		System.out.print("hahahah");
 	}
 
-	public static void show_user_art_table() {
+	public static void show_user_art_table_test() {
 		for (int i = 0; i < 5; i++) {
 			System.out.print(i + ":");
 			for (int j = 0; j < user_art_table.get(i).size(); j++) {
@@ -112,5 +112,4 @@ public class divide_train_test {
 			System.out.print("\n");
 		}
 	}
-
 }
