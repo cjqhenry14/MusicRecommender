@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Java Code/src/divide_train_test.java
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
